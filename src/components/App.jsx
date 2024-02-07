@@ -1,4 +1,4 @@
-const App = () => {
+export const App = () => {
   return (
     <>
       <h2>Payments 1</h2>
@@ -9,4 +9,3 @@ const App = () => {
     </>
   );
 };
-export default App;
