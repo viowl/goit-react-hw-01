@@ -1,3 +1,5 @@
+import React from "react";
+
 export const App = () => {
   return (
     <>
@@ -12,3 +14,4 @@ export const App = () => {
     </>
   );
 };
+export default App;
