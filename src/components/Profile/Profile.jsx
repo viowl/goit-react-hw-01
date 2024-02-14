@@ -1,7 +1,7 @@
 import css from "./Profile.module.css";
 
 const Profile = ({
-  username,
+  name,
   tag,
   location,
   avatar,
@@ -11,7 +11,7 @@ const Profile = ({
     <div className={css.userWrap}>
       <div className={css.user}>
         <img className={css.img} src={avatar} alt="User avatar" />
-        <p className={css.name}>Jacques Gluke</p>
+        <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>

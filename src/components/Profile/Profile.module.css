@@ -1,40 +1,50 @@
 .tag {
-  text-align: center;
+  font-size: 24px;
   margin-bottom: 8px;
+  color: rgb(139, 139, 139);
 }
 
 .name {
+  font-size: 32px;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 8px;
 }
 
 .location {
+  color: rgb(139, 139, 139);
+  font-size: 24px;
   text-align: center;
 }
 
 .user {
   padding: 16px;
+  text-align: center;
 }
 
 .img {
   border-radius: 50%;
   background-color: #117fdf;
   margin-bottom: 8px;
+
+  display: inline;
+  text-align: center;
 }
 
 .userWrap {
   border: solid 4px;
   border-radius: 8px;
   width: auto;
+  background-color: rgb(239, 236, 236);
 }
 
 .list {
   width: auto;
   height: 100px;
-  background-color: gainsboro;
+  background-color: rgb(139, 139, 139);
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -50,5 +60,6 @@
   flex: 1;
   text-align: center;
   border-radius: 1px;
-  border: 1px solid gray;
+  border: 1px solid rgb(87, 87, 87);
+  font-size: 24px;
 }
