@@ -14,9 +14,7 @@ const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <ul>
-        <FriendList friends={friends} />
-      </ul>
+      <FriendList friends={friends} />
     </>
   );
 };
