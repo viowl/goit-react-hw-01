@@ -1,24 +1,14 @@
-.isOnline {
-  color: green;
-}
-
-.isOffline {
-  color: red;
-}
-
-.textSize {
-  margin: 0;
-  font-size: 20px;
+.list {
+  display: flex;
+  gap: 8px;
+  max-width: 760px;
+  margin-bottom: 40px;
 }
 
 .listItem {
-  text-align: center;
+  margin-top: 24px;
+  border: 2px solid black;
+  border-radius: 12px;
   padding: 12px;
-}
-
-.name {
-  font-size: 32px;
-  font-weight: 500;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  width: calc((100% - 24px) / 5);
 }
